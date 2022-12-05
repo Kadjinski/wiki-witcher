@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+
+  header {
+    background-color: #020202;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  nav {
+    text-align: center;
+    padding-top: 2%;
+    
+  }
+
+  .container {
+    background-color: rgb(255, 255, 255);
+    min-height: 60vh;
+    padding: 40px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-table;
+    padding: 15px;
+    align-items: flex-start;
+  }
+  
+  .product-image {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+  background-image: url('/img/temeria.jpg');
+  } 
+
+  #img-2 {
+  background-image: url('/img/nilfgaard.jpg');
+  } 
+
+  #img-3 {
+  background-image: url('/img/redania.jpg');
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #161717;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #050505;
+  }
+  
+  footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+  }
+  
+  
